@@ -247,14 +247,23 @@ h4 {
   transition: 0.3s;
 }
 
-#hero .social-links a i img {
+#hero .social-links a i img:last-child {
   transition: 0.3s all ease-in-out;
 }
 
-#hero .social-links a i img:hover {
-  transform: scale(1.5);
+#hero .social-links a i img:first-child {
+  opacity: 0%;
+  transition: 0.3s all ease-in-out;
 }
 
+#hero .social-links a i:hover img:last-child {
+  opacity: 0%;
+}
+
+#hero .social-links a i:hover img:first-child {
+  opacity: 100%;
+  transform: scale(1.5);
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
