@@ -81,7 +81,7 @@ h4 {
 }
 
 .back-to-top:hover {
-  background: #2dc997;
+  background: #d35f5f;
   color: #fff;
 }
 
@@ -705,6 +705,32 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 0 45px 0;
   list-style: none;
   text-align: center;
+}
+
+#product #dropship{
+  text-align: center;
+  margin-right: 50px;
+}
+
+#product #dropship li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 22px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #e6b800;
+  text-transform: uppercase;
+  background: #e6b800;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+#product #dropship li:hover {
+  background: #fff;
+  color:#e6b800;
 }
 
 #product #product-flters li {
